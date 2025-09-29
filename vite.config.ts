@@ -6,7 +6,7 @@ import { mochaPlugins } from "@getmocha/vite-plugins";
 export default defineConfig(({ mode }) => ({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   plugins: [...mochaPlugins(process.env as any), react()],
-  base: mode === 'production' ? '/bykorp-digital-agency/' : '/',
+  base: mode === 'production' ? '/' : '/',
   server: {
     allowedHosts: true,
     proxy: {
