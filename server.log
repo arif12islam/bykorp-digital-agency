@@ -1,0 +1,7 @@
+
+> mocha-app@0.0.0 dev:mysql
+> tsx src/server/index.ts
+
+[dotenv@17.2.2] injecting env (8) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+🚀 Bykorp API Server with MongoDB running on http://localhost:3001
+MongoDB connected successfully!

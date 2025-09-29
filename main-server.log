@@ -1,0 +1,9 @@
+
+> mocha-app@0.0.0 dev:server
+> tsx src/server/sqlite-server.ts
+
+[dotenv@17.2.2] injecting env (7) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+🚀 Bykorp API Server running on http://localhost:3001
+SQLite database connected successfully!
+Database tables created successfully!
+Database already contains data, skipping sample data insertion.
