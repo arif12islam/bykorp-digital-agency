@@ -1,0 +1,40 @@
+{
+  "name": "bykorp-backend",
+  "version": "1.0.0",
+  "description": "Bykorp Digital Agency Backend API with MongoDB Atlas",
+  "main": "src/server/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/server/index.js",
+    "build": "tsc",
+    "dev": "tsx src/server/index.ts",
+    "postinstall": "npm run build"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/mongodb": "^4.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "api",
+    "backend",
+    "digital-agency"
+  ],
+  "author": "Arif Islam",
+  "license": "MIT"
+}

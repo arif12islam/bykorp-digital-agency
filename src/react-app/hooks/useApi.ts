@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ServiceType, PortfolioItemType, CreateReservationType, ReviewType } from '@/shared/types';
 
-const API_BASE = process.env.NODE_ENV === 'production' ? '/api' : 'http://localhost:3001/api';
+const API_BASE = process.env.NODE_ENV === 'production' ? 'https://bykorp-backend-api.onrender.com/api' : 'http://localhost:3001/api';
 
 // Mock data for development
 const mockServices: ServiceType[] = [
